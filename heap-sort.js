@@ -7,7 +7,7 @@ function Heap()
 }
 function HeapiFy(index, num)
 {
-    div_update(divs[index], div_sizes[index], "ffcb69");//yellow
+    div_update(divs[index], div_sizes[index], "#ffcb69");//yellow
     var largest = index;
     var l = 2*index+1;
     var r = 2*index+2;

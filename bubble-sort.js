@@ -4,7 +4,6 @@ function Bubble(){
 
     for(var i=0; i<array_size-1; i++){
         for(var j=0; j<array_size-1-i; j++){
-            div_update(divs[j], div_sizes[j], "#ffcb69");//yellow
             if(div_sizes[j]>div_sizes[j+1])
             {
                 div_update(divs[j], div_sizes[j], "#980000"); //red

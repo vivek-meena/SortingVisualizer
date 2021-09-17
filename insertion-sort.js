@@ -7,7 +7,7 @@ function Insertion()
 
         var key  = div_sizes[i];
 
-        div_update(divs[i], div_sizes[i], "ffcb69");//yellow
+        div_update(divs[i], div_sizes[i], "#ffcb69");//yellow
         
         var j = i-1;
 
@@ -23,7 +23,7 @@ function Insertion()
             div_update(divs[j], div_sizes[j], "#344966");//blue
 
             if(j==i-1){
-                div_update(divs[j+1], div_sizes[j+1], "ffcb69");//yellow
+                div_update(divs[j+1], div_sizes[j+1], "#ffcb69");//yellow
             }
 
             else{
